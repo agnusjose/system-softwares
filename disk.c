@@ -84,9 +84,8 @@ q[j]=q1[i];
 q[j]=max;
 for(i=0,j=t1+2;i<t2;i++,j++)
 q[j]=q2[i];
-q[j]=0;
 seektime=0;
-for(i=0;i<=n+1;i++)
+for(i=0;i<=n;i++)
 {
 distance=abs(q[i]-q[i+1]);
 seektime=seektime+distance;
